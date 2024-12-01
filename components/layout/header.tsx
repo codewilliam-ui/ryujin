@@ -1,5 +1,4 @@
 import React from "react";
-import User from "@/components/common/user";
 import { ModeToggle } from "@/components/ui/mode-toogle";
 import MenuMobile from "@/components/common/menu-mobile";
 import SheetSidebar from "../common/sheet-sidebar";
