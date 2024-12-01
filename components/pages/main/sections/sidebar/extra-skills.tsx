@@ -7,7 +7,7 @@ const ExtraSkills: React.FC = () => {
     <>
       <div className="profile-card">
         <h3 className="text-lg">Outros Conhecimentos</h3>
-        <ul className="flex flex-wrap justify-between gap-y-4 gap-x-2">
+        <ul className="flex flex-wrap justify-around sm:justify-between gap-y-4 gap-x-2 text-center">
           {extraSkillsCard.map((item, index) => (
             <li key={index} className="min-w-[80px] lg2:min-w-[50px]">
               <Button
