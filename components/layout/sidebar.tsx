@@ -9,7 +9,7 @@ const Sidebar: React.FC = () => {
     <div>
       <div className="w-[309px] shrink-0 desktop_sidebar sticky top-5 mb-10 z-10 container-lg2">
         <div className="overflow-y-auto scrollbarStyle h-[calc(100vh-2rem)]">
-          <div className="bg-white dark:bg-rc_default rounded-xl">
+          <div className="bg-white dark:bg-rc_default lg:rounded-xl">
             <Profile />
             <div className="space-y-10 p-6">
               <Information />
