@@ -35,7 +35,7 @@ const ProfessionalCard: React.FC<ProfessionalCardProps> = ({ data, sectionTitle 
                       <span className="text-base font-normal text-rc_purple">
                         {index.institution}
                       </span>
-                      <Badge className="xl:hidden rounded-full">2023 - Cursando</Badge>
+                      <Badge className="xl:hidden rounded-full">{index.date}</Badge>
                     </div>
                   </div>
                 </div>
