@@ -23,3 +23,20 @@ export const cardEducation = [
 ]
 
 /* Obs: Futuramente alterar para utilizar o formato de data ISO e implementar lógica para capturar o ano de início e término. Caso o término não tenha ocorrido, exibir "Concluído". */
+
+export const cardExperience =[
+    {
+        id: 1,
+        date: "2023 - Atual",
+        title: "Freelancer",
+        institution: "Desenvolvedor Frontend",
+        description: "Atuo como desenvolvedor frontend freelancer, criando interfaces dinâmicas e responsivas, além de colaborar com equipes para entregar soluções eficientes em diversos projetos, utilizando tecnologias como React, Tailwind CSS e Next.js."
+    },
+    {
+        id: 2,
+        date: "2024 - Atual",
+        title: "StartedGO",
+        institution: "Desenvolvedor Frontend",
+        description: "Trabalho como desenvolvedor frontend na StartedGO, focando no desenvolvimento de aplicações web, implementação de interfaces interativas e responsivas, além de integrar sistemas para melhorar a experiência do usuário e otimizar o desempenho das plataformas."
+    }
+]    

@@ -26,7 +26,7 @@ const ProfessionalCard: React.FC<ProfessionalCardProps> = ({ data, sectionTitle 
             >
               <div className="w-full xl:max-w-[315px]">
                 <div className="flex flex-col items-start gap-4 mt-2 xl:mt-3">
-                  <Badge className="badge">
+                  <Badge className="hidden xl:block badge">
                     {index.date}
                   </Badge>
                   <div className="space-y-3 xl:space-y-1">

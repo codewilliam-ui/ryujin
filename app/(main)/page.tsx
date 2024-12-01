@@ -2,6 +2,7 @@ import Header from "@/components/layout/header";
 import Navbar from "@/components/layout/navbar";
 import Sidebar from "@/components/layout/sidebar";
 import Education from "@/components/pages/main/sections/education/education";
+import Experience from "@/components/pages/main/sections/experience/experience";
 import HeroSection from "@/components/pages/main/sections/hero/hero-section";
 import Services from "@/components/pages/main/sections/services/services";
 import React from "react";
@@ -23,6 +24,9 @@ const Page: React.FC = () => {
             <div className="space-y-14 mt-14">
               <div id="education">
                 <Education />
+              </div>
+              <div id="experience">
+                <Experience/>
               </div>
             </div>
           </main>
