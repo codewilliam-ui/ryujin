@@ -170,19 +170,36 @@ body {
     @apply mt-2 lg:mt-4 text-rc_slate dark:text-rc_cadetBlue text-base;
   }
 
+  .profile-card{
+   @apply space-y-10 pb-10 border-b border-rc_lightBlue dark:border-rc_darkGrey;
+  }
+
   .profile-text-base{
-    @apply text-rc_slate text-md
+    @apply text-rc_slate text-md;
   }
+
   .profile-text-lg{
-    @apply text-lg
+    @apply text-lg;
   }
+
   .profile-link{
-    @apply text-rc_cadetBlue hover:text-rc_purple transition-colors duration-300 ease-in-out;
+    @apply text-rc_cadetBlue hover:text-rc_purple transition-color;
   }
+
+  .transition-color{
+    @apply transition-colors duration-300 ease-in-out;
+  }
+  
   .text-md{
-    @apply text-[15px]
+    @apply text-[15px];
   }
+  
+  .border-image{
+    @apply border-2 transition-color;
+  }
+  
   .badge {
     @apply hidden xl:block rounded-full;
   }
+  
 }

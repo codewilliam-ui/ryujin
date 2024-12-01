@@ -18,7 +18,7 @@ export function TeamMenu() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Icon icon="mdi:dots-horizontal" width="24" height="24" />
+        <Icon icon="mdi:dots-horizontal" width="24" height="24" className="cursor-pointer" />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuLabel className="font-medium">Minhas Equipe</DropdownMenuLabel>

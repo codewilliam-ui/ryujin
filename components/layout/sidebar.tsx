@@ -11,7 +11,7 @@ const Sidebar: React.FC = () => {
         <div className="overflow-y-auto scrollbarStyle h-[calc(100vh-2rem)]">
           <div className="bg-white dark:bg-rc_default lg:rounded-xl">
             <Profile />
-            <div className="space-y-10 p-6">
+            <div className="space-y-10 p-5">
               <Information />
               <Teams />
             </div>
