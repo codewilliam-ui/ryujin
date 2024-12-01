@@ -21,8 +21,8 @@ body {
     --rc-dark-grey: 0 0% 9%; /* #181818 - OK */
     --rc-clay: #48443e;
     --rc-slate: 0 0% 46%; /* #767676 - OK */
-    --rc-cadet-clue: #7e9299;
-    --rc-light-blue: #b4c6ef;
+    --rc-cadet-blue: 195 11% 54%; /* #7e9299 - OK */
+    --rc-light-blue: 221 64% 82%; /* #b4c6ef - OK */
 
     /* Main */
     --rc-dark-blue: #200d5c;
@@ -33,7 +33,7 @@ body {
 
     /* Base */
     --rc-dark: #030204;
-    --rc-light: #f6f6f6; /*  */
+    --rc-light: #f6f6f6;
 
     /* Destructive */
     --rc-danger: #be2b28;
@@ -138,6 +138,10 @@ body {
     @apply bg-[url('/assets/images/background/bg-services-light.svg')] dark:bg-[url('/assets/images/background/bg-services.svg')] bg-no-repeat bg-center bg-cover min-h-[465px] rounded-xl;
   }
 
+  .section {
+    @apply p-6 sm:p-10 xl:p-10 rounded-xl bg-white dark:bg-rc_default
+  }
+
   .section-title {
     @apply font-semibold text-2xl sm:text-3xl text-rc_default dark:text-white text-center;
   }
@@ -153,5 +157,20 @@ body {
   .card-span {
     @apply font-medium text-sm text-rc_slate;
   }
-}
 
+  .professional-card {
+    @apply flex flex-col gap-6 xl:flex-row xl:justify-between border-b border-rc_lightBlue dark:border-rc_darkGrey pb-8 xl:pb-10;
+  }
+
+  .professional-card-title {
+    @apply text-lg dark:text-white font-medium;
+  }
+
+  .professional-card-description {
+    @apply mt-2 lg:mt-4 text-rc_slate dark:text-rc_cadetBlue text-base;
+  }
+
+  .badge {
+    @apply hidden xl:block rounded-full;
+  }
+}

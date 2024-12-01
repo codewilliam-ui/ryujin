@@ -14,6 +14,8 @@ const config: Config = {
   			rc_darkGrey: 'hsl(var(--rc-dark-grey))',
   			rc_light: 'hsl(var(--rc-light))',
   			rc_slate: 'hsl(var(--rc-slate))',
+  			rc_cadetBlue: 'hsl(var(--rc-cadet-blue))',
+  			rc_lightBlue: 'hsl(var(--rc-light-blue))',
   			rc_purple: 'hsl(var(--rc-purple))',
   			rc_pink: 'hsl(var(--rc-pink))',
   			background: 'hsl(var(--background))',

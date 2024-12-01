@@ -5,7 +5,7 @@ import React from "react";
 const HeroSection: React.FC = () => {
   return (
     <>
-      <div className="bg-hero p-6 sm:p-10 xl:p-10 rounded-xl flex-col lg:flex-row flex items-center justify-center lg:justify-between relative space-y-6">
+      <div className="bg-hero section lg:flex-row flex-col-center lg:justify-between relative space-y-6">
         <div className="w-full text-center lg:text-start space-y-6">
           <h1 className="text-3xl sm:text-5xl font-medium leading-9 text-white md:!leading-[56px] lg:max-w-[543px] ">
             I’m Franklin William{" "} <br />
