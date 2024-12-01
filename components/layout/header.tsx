@@ -12,7 +12,7 @@ const Header: React.FC = () => {
           <div>
             <SheetSidebar />
           </div>
-          <div className="flex items-center gap-9">
+          <div className="flex items-center gap-4">
             <ModeToggle />
             <MenuMobile />
           </div>

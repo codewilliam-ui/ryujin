@@ -5,7 +5,7 @@ const MenuMobile: React.FC = () =>{
 
   return (
     <>
-      <Icon icon="solar:hamburger-menu-line-duotone"  style={{color: "white"}} />
+      <Icon icon="hugeicons:menu-04" width="24" height="24" />
     </>
   )
 }
