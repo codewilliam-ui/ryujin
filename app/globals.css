@@ -78,8 +78,8 @@ body {
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 0 0% 3%; 
+    --accent-foreground: 0 0% 9%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
     --border: 217.2 32.6% 17.5%;
@@ -170,6 +170,18 @@ body {
     @apply mt-2 lg:mt-4 text-rc_slate dark:text-rc_cadetBlue text-base;
   }
 
+  .profile-text-base{
+    @apply text-rc_slate text-md
+  }
+  .profile-text-lg{
+    @apply text-lg
+  }
+  .profile-link{
+    @apply text-rc_cadetBlue hover:text-rc_purple transition-colors duration-300 ease-in-out;
+  }
+  .text-md{
+    @apply text-[15px]
+  }
   .badge {
     @apply hidden xl:block rounded-full;
   }
