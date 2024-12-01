@@ -1,6 +1,8 @@
+"use client"
 import React from "react";
 import Profile from "@/components/pages/main/sections/sidebar/profile";
 import Information from "../pages/main/sections/sidebar/information";
+import Teams from "../pages/main/sections/sidebar/teams";
 
 const Sidebar: React.FC = () => {
   return (
@@ -10,12 +12,13 @@ const Sidebar: React.FC = () => {
           <div className="bg-white dark:bg-rc_default rounded-xl">
             <Profile />
             <div className="space-y-10 p-6">
-              <Information/>
+              <Information />
+              <Teams />
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-}
-export default Sidebar
+};
+export default Sidebar;
