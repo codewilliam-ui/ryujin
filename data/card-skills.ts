@@ -16,3 +16,12 @@ export const majorSkillsCard = [
         value: 80
     },
 ]
+
+export const extraSkillsCard = [
+    { extraSkill: "React"},
+    { extraSkill: "Python"},
+    { extraSkill: "Next.js"},
+    { extraSkill: "Java"},
+    { extraSkill: "TypeScript"},
+    { extraSkill: "SQL Server"},
+]

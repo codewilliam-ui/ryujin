@@ -1,5 +1,5 @@
 import { Progress } from "@/components/ui/progress";
-import { majorSkillsCard } from "@/data/card-major-skills";
+import { majorSkillsCard } from "@/data/card-skills";
 import React from "react";
 
 const MajorSkills: React.FC = () => {
