@@ -24,6 +24,12 @@ Description: Ryujin Code - Portfolio Next.js Template
   }
 }
 
+@media (min-width: 1341px) {
+  .desktop_sidebar {
+      display: block;
+  }
+}
+
 /* Leaked text */
 .border-text {
   color: transparent;
@@ -34,4 +40,16 @@ Description: Ryujin Code - Portfolio Next.js Template
 /* Shadows */
 .drop {
   filter: drop-shadow(0 14px 30px #0a0c1c);
+}
+
+/* Scroll */
+
+/* Para navegadores WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Para Firefox */
+.scrollbarStyle {
+  scrollbar-width: none;
 }
