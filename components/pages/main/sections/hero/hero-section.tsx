@@ -14,23 +14,23 @@ const HeroSection: React.FC = () => {
           </h1>
 
           <p className="md:my-6 text-base text-white/70  leading-6 md:leading-7 lg:max-w-[460px]">
-          Criando soluções funcionais e visualmente atraentes, sempre com foco na experiência do usuário.
+          Criando soluções funcionais e atraentes, sempre com foco na experiência do usuário.
           </p>
         </div>
         <div className="container-lg">
           <Image
-            alt="Wallpaper Jett - Valorant"
+            alt="Wallpaper Samurai"
             width="488"
             height="383"
-            src="/assets/images/home/samurai.svg"
-            className="absolute top-[-32px] right-[-20px] z-10"
+            src="/assets/images/hero/samurai.svg"
+            className="absolute top-[-31px] right-[-20px] z-10"
           />
           <Image
-            alt="Wallpaper Samurai"
+            alt="Wallpaper Jett - Valorant"
             width="381"
             height="341"
-            src="/assets/images/home/shinobi.svg"
-            className="absolute top-[9px] right-[150px] z-[9] opacity-60 drop"
+            src="/assets/images/hero/shinobi.svg"
+            className="absolute top-[10px] right-[150px] z-[9] opacity-60 drop"
           />
         </div>
         <div className="assets">

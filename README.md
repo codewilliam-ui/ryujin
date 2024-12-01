@@ -49,7 +49,7 @@ Aqui está uma visão geral da estrutura do projeto:
 Clone o repositório para o seu computador:
 
 ```bash
-git clone https://github.com/codewilliam-ui/Portfolio.git
+git clone https://github.com/codewilliam-ui/ryujin.git
 ```
 
 ### 2. Instalar Dependências

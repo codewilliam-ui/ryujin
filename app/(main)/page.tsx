@@ -2,6 +2,7 @@ import Header from "@/components/layout/header";
 import Navbar from "@/components/layout/navbar";
 import Sidebar from "@/components/layout/sidebar";
 import HeroSection from "@/components/pages/main/sections/hero/hero-section";
+import Services from "@/components/pages/main/sections/services/services";
 import React from "react";
 
 const Page: React.FC = () => {
@@ -14,6 +15,9 @@ const Page: React.FC = () => {
           <main>
             <div id="home">
               <HeroSection />
+            </div>
+            <div id="services">
+              <Services />
             </div>
           </main>
         </div>
