@@ -1,8 +1,9 @@
-"use client"
+"use client";
 import React from "react";
 import Profile from "@/components/pages/main/sections/sidebar/profile";
 import Information from "../pages/main/sections/sidebar/information";
 import Teams from "../pages/main/sections/sidebar/teams";
+import MajorSkills from "../pages/main/sections/sidebar/major-skills";
 
 const Sidebar: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Sidebar: React.FC = () => {
             <div className="space-y-10 p-5">
               <Information />
               <Teams />
+              <MajorSkills />
             </div>
           </div>
         </div>

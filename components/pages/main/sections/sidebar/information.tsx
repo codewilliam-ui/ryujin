@@ -15,7 +15,7 @@ const Information: React.FC = () => {
             >
               <p>{item.label}</p>
               {item.href ? (
-                <Link href={item.href} className="text-rc_cadetBlue profile-link rc_default">
+                <Link href={item.href} className="text-rc_cadetBlue profile-link">
                   {item.value}
                 </Link>
               ) : (

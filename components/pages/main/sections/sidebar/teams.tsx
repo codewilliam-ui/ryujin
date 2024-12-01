@@ -24,7 +24,7 @@ const Teams: React.FC = () => {
           />
           <div className="space-y-2 w-full">
             <div className="flex justify-between ">
-              <h3 className="text-md text-white group-hover:text-rc_purple transition-color">
+              <h3 className="text-md group-hover:text-rc_purple transition-color">
                 {item.title}
               </h3>
               <Badge variant={"secondary"}>{item.badge}</Badge>
