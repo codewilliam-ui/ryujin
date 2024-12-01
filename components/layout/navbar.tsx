@@ -1,12 +1,13 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { ModeToggle } from "@/components/ui/mode-toogle";
-import Image from "next/image";
 import { menuItems } from "@/data/menu-itens";
 import Link from "next/link";
+import { Icon } from "@iconify-icon/react/dist/iconify.mjs";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"; 
 
 const Navbar: React.FC = () => {
-
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
     <>
@@ -17,20 +18,25 @@ const Navbar: React.FC = () => {
             <ModeToggle />
           </div>
           <div className="overflow-y-auto overflow-x-hidden flex-col-center gap-5 h-[calc(100vh-9rem)]">
-            {menuItems.map((item, i) => (
-              <Link key={i} href={item.href}>
-                <div className="text-center flex items-center justify-start gap-3 menu-hover">
-                  <Image
-                    className="text-rc_slate hover:text-white"
-                    src={item.src}
-                    alt={item.alt}
-                    width={20}
-                    height={20}
-                    style={{color: "white"}}
-                  />
-                </div>
-              </Link>
-            ))}
+            <TooltipProvider>
+              {menuItems.map((item, i) => (
+                <Link key={i} href={item.href}>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <div className={`menu ${
+                          activeIndex === i
+                            ? "bg-rc_purple dark:bg-rc_purple text-white"
+                            : "text-rc_slate hover:text-white hover:bg-rc_purple dark:hover:bg-rc_purple"
+                        }`}
+                        onClick={() => setActiveIndex(i)}>
+                        <Icon icon={item.icon} width={24} height={24} />
+                      </div>
+                    </TooltipTrigger>
+                    <TooltipContent side="left"><p>{item.alt}</p></TooltipContent>
+                  </Tooltip>
+                </Link>
+              ))}
+            </TooltipProvider>
           </div>
         </div>
       </div>

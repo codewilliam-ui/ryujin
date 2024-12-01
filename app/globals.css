@@ -78,8 +78,8 @@ body {
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 0 0% 3%; 
-    --accent-foreground: 0 0% 9%;
+    --accent: 217.2 32.6% 17.5%; 
+    --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
     --border: 217.2 32.6% 17.5%;
@@ -118,8 +118,12 @@ body {
     @apply my-0 mx-auto w-full;
   }
 
-  .menu-hover {
-    @apply p-3.5 rounded-md bg-rc_darkGrey hover:bg-rc_purple;
+  .menu {
+    @apply text-center flex items-center justify-start gap-3 dark:bg-rc_darkGrey hover:bg-rc_purple p-3 rounded-md transition-all ;
+  }
+
+  .menu-mobile {
+    @apply text-center flex items-center justify-start gap-3 p-3 rounded-md transition-all ;
   }
 
   .bg-hero {

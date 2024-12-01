@@ -1,9 +1,9 @@
 export const menuItems = [
-    { href: "#home", alt: "Página Inicial", src: "/assets/images/icons/home.svg" },
-    { href: "#services", alt: "Serviços", src: "/assets/images/icons/services.svg" },
-    { href: "#experience", alt: "Experiência", src: "/assets/images/icons/experience.svg" },
-    { href: "#projects", alt: "Projetos", src: "/assets/images/icons/projects.svg" },
-    { href: "#blogs", alt: "Blogs", src: "/assets/images/icons/home.svg" },
-    { href: "#reviews", alt: "Avaliações", src: "/assets/images/icons/testimonials.svg" },
-    { href: "#contact", alt: "Contato", src: "/assets/images/icons/contact.svg" },
+    { href: "#home", alt: "Página Inicial", icon: "ion:home" },
+    { href: "#services", alt: "Serviços", icon: "ion:book" },
+    { href: "#experience", alt: "Experiência", icon: "fa:briefcase" },
+    { href: "#projects", alt: "Projetos", icon: "heroicons:document-text-solid" },
+    { href: "#blogs", alt: "Blogs", icon: "ri:quill-pen-ai-fill" },
+    { href: "#reviews", alt: "Avaliações", icon: "tabler:message-2-filled" },
+    { href: "#contact", alt: "Contato", icon: "streamline:mail-send-email-message-solid" },
   ];
