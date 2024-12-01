@@ -170,6 +170,18 @@ body {
     @apply mt-2 lg:mt-4 text-rc_slate dark:text-rc_cadetBlue text-base;
   }
 
+  .profile-text-base{
+    @apply text-rc_slate text-md
+  }
+  .profile-text-lg{
+    @apply text-lg
+  }
+  .profile-link{
+    @apply text-rc_cadetBlue hover:text-rc_purple transition-colors duration-300 ease-in-out;
+  }
+  .text-md{
+    @apply text-[15px]
+  }
   .badge {
     @apply hidden xl:block rounded-full;
   }
